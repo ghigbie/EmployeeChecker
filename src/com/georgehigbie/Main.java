@@ -20,21 +20,24 @@ public class Main {
         String personTypeStatment = "You are entering data for a new ";
         String employee = "employee";
         String contractor = "contractor";
+        String consultant = "consultant";
+        String intern = "intern";
+
         switch (employeeType) {
 
             case (1):
-                System.out.println("You are entering data for a new employee.");
+                System.out.println(personTypeStatment + employee + ".");
                 break;
             case (2):
-                System.out.println("You are entering data for a new contractor.");
+                System.out.println(personTypeStatment + contractor + ".");
                 break;
             case (3):
-                System.out.println("You are entering data for a new consultant.");
+                System.out.println(personTypeStatment + consultant + ".");
                 break;
             case (4):
-                System.out.println("You are entering data for a new intern.");
+                System.out.println(personTypeStatment + intern + ".");
                 break;
-            case (default):
+            default:
                 System.out.println("Please enter a valid choice.");
                 break;
         }
