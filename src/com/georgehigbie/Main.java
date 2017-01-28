@@ -11,8 +11,10 @@ public class Main {
     }
 
     public static void beginEntry(){
-        System.out.println("Would you like to enter information for an Employee, a Contractor, a Consultant who was a former employee, or an intern?");
-        System.out.println("Please enter \"1\" for employee, \"2\" for contactor, \"3\" for consultant, \"4\" for intern.");
+        String personTypePrompt = "Would you like to enter information for an Employee, a Contractor, a Consultant who was a former employee, or an intern?";
+        String inputPrompt = "Please enter \"1\" for employee, \"2\" for contactor, \"3\" for consultant, \"4\" for intern.";
+        System.out.println(personTypePrompt);
+        System.out.println(inputPrompt;
 
         Scanner scanner = new Scanner(System.in);
         int employeeType = scanner.nextInt();
