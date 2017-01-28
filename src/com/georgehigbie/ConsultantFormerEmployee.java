@@ -5,5 +5,15 @@ package com.georgehigbie;
  */
 public class ConsultantFormerEmployee extends Employee {
 
+    private String firstName;
+    private String lastName;
+    private String dateOfBirth;
+    private String department;
+    private String email;
+    private String workCell;
+    private int age;
+    private int employeeCode;
+
+
 
 }
