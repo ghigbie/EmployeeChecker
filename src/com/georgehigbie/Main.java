@@ -30,6 +30,7 @@ public class Main {
             case (1):
                 System.out.println(personTypeStatment + employee + ".");
                 scanner.close();
+                //Employee emp = new Employee();
                 break;
             case (2):
                 System.out.println(personTypeStatment + contractor + ".");
